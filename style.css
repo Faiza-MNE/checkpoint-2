@@ -1,0 +1,125 @@
+body {
+    font-family: 'roboto';
+    color: #332f2f;
+    background-color: salmon;
+    line-height: 1.6;
+    overflow-x: hidden;
+    margin: 0%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #463f3f;
+    color: rgba(255, 255, 255, 0.829);
+    padding: 0.5rem 1.5rem;
+    margin: 0%;
+    position: sticky;
+    border-bottom: 3px solid salmon
+}
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+nav .profile h3 {
+    color:white;
+    text-decoration: none;
+}
+
+nav .logo h3 {
+    color: white;
+    text-decoration: none;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+    font-size: 1.3rem;
+    margin: 0 0.5rem;
+    border-radius: 8px;
+    transition: background-color 0.4s;
+}
+
+nav li a:hover {
+    background-color: salmon;
+}
+#about{
+    min-height: 100vh;
+    padding: 7.5vw;
+    color: #000;
+}
+.about-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+
+}
+.about-content h1 {
+    font-size: 4rem;
+    font-style: oblique;
+    margin-top: 10rem;
+    margin-bottom: 1rem;
+}
+.about-content h3 {
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.about-content p {
+    font-size: 1.5rem;
+    margin-top: 3rem;
+}
+.about-video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: salmon;
+}
+#projects {
+    min-height: 100vh;
+}
+h2 {
+    display: flex;
+    font-size: 4rem;
+    font-style: oblique;
+    justify-content: center;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+
+}
+
+.image-projects {
+    display: flex;
+    justify-content: center;
+}
+
+#Contact {
+    min-height: 100vh;
+    padding: 10vw;
+    margin: 1vh 1vw;
+    background-color: #333;
+    justify-content: space-between;
+
+}
+.contact-title{
+    display: flex;
+    font-size: 3rem;
+    font-style: oblique;
+    justify-content: center;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.icons-contact {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+}
